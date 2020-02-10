@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.container{
+  background: url(https://image.flaticon.com/icons/png/512/41/41590.png) no-repeat center;
+width: 100%; height: 600px; display: flex; flex-direction: column; align-items: center;
+}
+.counter{
+  margin-top: 200px;
+}
+.counter span {
+  font-family: Arial, Helvetica, sans-serif;font-size: 35px; color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.time{
+  margin-top: 5px;     margin-right: 7px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.time span{ 
+  font-family: Arial, Helvetica, sans-serif;font-size: 15px; margin-left: 14px; color: grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.setting{
+  margin-top: 60px;
 }
-
-.App-link {
-  color: #61dafb;
+#start{
+  border: 2px solid #13d3c6; width: 60px; height: 30px; border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;font-size: 15px; margin-left: 14px; color: #13d3c6; 
+  margin-right: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#reset{
+  border: 2px solid black; width: 60px; height: 30px; border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;font-size: 15px; margin-left: 14px; color:black; 
+  margin-right: 10px;
 }
